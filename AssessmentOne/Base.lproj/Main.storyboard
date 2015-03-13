@@ -45,8 +45,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL6-vL-XBA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL6-vL-XBA">
                                 <rect key="frame" x="122" y="235" width="76" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="Ig8-om-r4a"/>
+                                    <constraint firstAttribute="height" constant="34" id="j6h-q0-GE4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,8 +65,10 @@
                             <constraint firstItem="eTo-Ol-uhq" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="9a7-kc-TxM"/>
                             <constraint firstItem="reN-Oa-htk" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="A1A-il-M1N"/>
                             <constraint firstAttribute="centerX" secondItem="reN-Oa-htk" secondAttribute="centerX" id="Dhs-j2-0M8"/>
+                            <constraint firstItem="rL6-vL-XBA" firstAttribute="top" secondItem="reN-Oa-htk" secondAttribute="bottom" constant="39" id="TSZ-Jq-elF"/>
                             <constraint firstItem="6JI-AG-RPH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="d60-CC-hlw"/>
                             <constraint firstItem="eTo-Ol-uhq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="106" id="djV-yt-0yq"/>
+                            <constraint firstAttribute="centerX" secondItem="rL6-vL-XBA" secondAttribute="centerX" id="ivG-g6-wEM"/>
                             <constraint firstItem="6JI-AG-RPH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="106" id="pcK-0p-ku0"/>
                         </constraints>
                     </view>
